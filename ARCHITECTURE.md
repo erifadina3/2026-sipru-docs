@@ -4,16 +4,13 @@
 SIPRU adalah sistem peminjaman ruangan kampus yang digunakan untuk
 mencatat, mengelola, dan menelusuri data peminjaman ruangan.
 
-## Architecture Overview
-Sistem menggunakan arsitektur client-server dengan pemisahan komponen
-backend, frontend, dan mobile.
-
-## Components
+## Technology Stack
+- Frontend: React
 - Backend: ASP.NET Core Web API
-- Frontend: React.js + TypeScript
-- Mobile: Flutter
-- Version Control: GitHub
+- Database: PostgreSQL
 
-## Communication Flow
-Frontend dan Mobile berkomunikasi dengan Backend melalui REST API
-menggunakan format JSON.
+## Architecture Overview
+Frontend → REST API → Backend Controller → Entity Framework Core → PostgreSQL
+
+Sistem menggunakan layered architecture dengan prinsip separation of concerns.
+

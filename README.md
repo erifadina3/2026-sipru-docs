@@ -1,2 +1,7 @@
-# SIPRU Documentation
-Dokumentasi sistem SIPRU, mencakup arsitektur, API, dan panduan penggunaan.
+## Documentation Scope
+
+- Studi Kasus
+- Arsitektur Sistem
+- API Specification
+- Refleksi Pengembangan
+
